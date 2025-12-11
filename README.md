@@ -1,35 +1,11 @@
 🕹️ Tic Tac Toe Game
-
-A simple and fun Tic Tac Toe game built while learning JavaScript.
-This project helped me understand DOM manipulation, game logic, events, and clean UI design.
-
+<p>A simple and fun <b>Tic Tac Toe</b> game built while learning <b>JavaScript</b>. This project helped me understand DOM manipulation, game logic, events, and clean UI design.</p>
 📚 About This Project
-
-I created this project while learning JavaScript from this tutorial:
-👉 https://youtu.be/_V33HCZWLDQ?si=tVsng3FuoavxQOlV
-
-This game allows two players to play against each other in a classic 3×3 tic-tac-toe grid.
-
+<p>I created this project while learning JavaScript from this tutorial:<br> 👉 <a href="https://youtu.be/_V33HCZWLDQ?si=tVsng3FuoavxQOlV" target="_blank">YouTube Tutorial Link</a></p> <p>This game allows two players to play against each other in a classic <b>3×3 tic-tac-toe</b> grid.</p>
 ✨ Features
-
-🎮 Two-player game
-
-✔️ Detects win, draw, or ongoing match
-
-🔄 Restart button to play again
-
-🎨 Simple and clean UI
-
-⚡ Fast, lightweight, no frameworks used
-
+<ul> <li>🎮 Two-player game</li> <li>✔️ Detects win, draw, or ongoing match</li> <li>🔄 Restart button to play again</li> <li>🎨 Simple and clean UI</li> <li>⚡ Fast, lightweight, no frameworks used</li> </ul>
 🏗️ Technologies Used
-
-HTML
-
-CSS
-
-JavaScript
-
+<ul> <li>HTML</li> <li>CSS</li> <li>JavaScript</li> </ul>
 📂 Folder Structure
 project-folder/
 │── index.html
@@ -37,40 +13,15 @@ project-folder/
 └── script.js
 
 🚀 How to Play
-
-Open index.html in your browser.
-
-Player X starts first.
-
-Click on any box to place your mark.
-
-The game automatically shows:
-
-Winner (X or O)
-
-Or Draw
-
-Click Restart to play again.
-
+<ol> <li>Open <code>index.html</code> in your browser.</li> <li>Player <b>X</b> starts first.</li> <li>Click on any box to place your mark.</li> <li>The game will show: <ul> <li>🏆 Winner (X or O)</li> <li>🤝 Draw</li> </ul> </li> <li>Click <b>Restart</b> to play again.</li> </ol>
 📸 Preview (Optional – Add if you have a screenshot)
+<img src="./screenshot.png" alt="Game Screenshot" width="300">
 
-You can add your game screenshot here later, like:
 
-![Game Screenshot](https://github.com/code-master-lab/Tic-tac-toe-game/blob/main/Image/Screenshot%202025-12-12%20034729.png)
+Replace screenshot.png with your actual file.
 
 🧠 What I Learned
-
-While building this game, I understood:
-
-How to handle events in JavaScript
-
-How to update UI dynamically
-
-How to write simple game logic
-
-Importance of clean code structure
-
+<ul> <li>How to handle events in JavaScript</li> <li>How to update UI dynamically</li> <li>How to write simple game logic</li> <li>The importance of clean code structure</li> </ul>
 🙌 Credits
+<p>Tutorial Source:<br> 👉 <a href="https://youtu.be/_V33HCZWLDQ?si=tVsng3FuoavxQOlV" target="_blank">YouTube Tutorial Link</a></p>
 
-Tutorial Source:
-https://youtu.be/_V33HCZWLDQ?si=tVsng3FuoavxQOlV
