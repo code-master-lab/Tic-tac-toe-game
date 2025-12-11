@@ -1,0 +1,106 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  background-color: #548687;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Game container centering */
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tic-Tac-Toe board grid */
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+/* Individual boxes styling */
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.box:active {
+  transform: scale(0.95);
+}
+
+/* Button styling enhancements for match */
+#reset-btn,
+#new-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #191913;
+  color: #ffffff;
+  border-radius: 1rem;
+  border: 2px solid #00ff1e; /* gold border for highlight */
+  cursor: pointer;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+  background-color: #333;
+  border: 2px solid #ffffff; /* subtle on hover */
+}
+
+/* Winning message styling */
+#msg {
+  color: #00ff00; /* gold for warmth and celebration */
+  font-size: 10vmin;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); /* deeper shadow for clarity */
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* Message container with overlay and animation */
+.msg-container {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* slightly stronger dim for focus */
+  backdrop-filter: blur(6px);     /* softer, clear background blur */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.msg-container.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: all;
+}
+
+/* Hide utility class */
+.hide {
+  display: none;
+}
