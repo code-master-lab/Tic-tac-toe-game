@@ -1,4 +1,4 @@
-🕹️ Tic Tac Toe Game
+<h1>🕹️ Tic Tac Toe Game</h1>
 <p>A simple and fun <b>Tic Tac Toe</b> game built while learning <b>JavaScript</b>. This project helped me understand DOM manipulation, game logic, events, and clean UI design.</p>
 📚 About This Project
 <p>I created this project while learning JavaScript from this tutorial:<br> 👉 <a href="https://youtu.be/_V33HCZWLDQ?si=tVsng3FuoavxQOlV" target="_blank">YouTube Tutorial Link</a></p> <p>This game allows two players to play against each other in a classic <b>3×3 tic-tac-toe</b> grid.</p>
