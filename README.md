@@ -127,9 +127,11 @@ project-folder/
     <h2>📸 Preview</h2>
     <p>Here’s how the game looks:</p>
 
-    <img src="https://github.com/code-master-lab/Tic-tac-toe-game/blob/main/Image/Screenshot%202025-12-12%20034729.png?raw=true" 
-         alt="Game Screenshot" width="400" 
-         style="border-radius: 10px; border: 2px solid #e91e63;">
+ <img src="https://raw.githubusercontent.com/code-master-lab/Tic-tac-toe-game/main/Image/Screenshot%202025-12-12%20034729.png" 
+     alt="Game Screenshot" 
+     width="400" 
+     style="border-radius: 10px; border: 2px solid #e91e63;">
+
   </div>
 
   <!-- What I Learned -->
